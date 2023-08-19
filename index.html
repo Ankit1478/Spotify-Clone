@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="./assests/logo.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option"  style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="options">
+                    <div class="lib-options nav-option">
+                        <img src="./assests/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <button class="button">Playlists</button>
+
+                <div class="serchbox">
+                    <div class="box">
+                        <div class="box1"> 
+                            <div class="nav-option">
+                                <i class="fa-solid fa-magnifying-glass"> </i>
+                                <i class="fa-solid fa-caret-down" id="downarrow"></i>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="playlistbox">
+
+                <div class="liked-music">
+                            <div class="Likedmusicicon"> <img src="./assests/card2img.jpeg" alt="card2"></div>
+                            <div class="">
+                                <div class="likes">Liked music</div>
+                                <div class="like-text">Playlists. 4 songs</div>
+                            </div>
+                </div>
+
+                <div class="liked-music">
+                    <div class="Likedmusicicon"> <img src="./assests/zyan.jpg" alt="card2"></div>
+                    <div class="">
+                        <div class="likes">I Don’t Wanna Live</div>
+                        <div class="like-text">Nobody Is Listening.2021</div>
+                    </div>
+        </div>
+        <div class="liked-music">
+            <div class="Likedmusicicon"> <img src="./assests/wp1830707.jpg" alt="card2"></div>
+            <div class="">
+                <div class="likes">Brown Rang</div>
+                <div class="like-text">Yo Yo Honey Singh</div>
+            </div>
+
+        </div>
+            </div>
+            </div>     
+        </div>
+        <div class="main-content">
+            <div class="navsticky-bar">
+                <div class="navbar-icons">
+                    <img src="./assests/backward_icon.png">
+                    <img src="./assests/forward_icon.png" class="hide">
+                </div>
+                <div class="navbar-option">
+                    <button class="badge hide">Explore Premium</button>
+                    <button class="badge1"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+            <h1>Good Afternoon</h1>
+            <div class="card">
+                <div class="album">
+                    <div class="album-music">
+                        <div class="alumicons"> <img src="./assests/sidhu.jpg" alt="card2"></div>
+                        <div class="">
+                            <div class="mucictext">  Hots Hits Punjabi</div>
+                        </div>
+            </div>
+                    </div>
+                    <div class="album">
+                        <div class="album-music">
+                            <div class="alumicons"> <img src="./assests/villan.jpg" alt="card2"></div>
+                            <div class="">
+                                <div class="mucictext">Villan all songs</div>
+                            </div>
+                </div>
+                        </div>
+                        <div class="album">
+                            <div class="album-music">
+                                <div class="alumicons"> <img src="./assests/bollywood.jpg" alt="card2"></div>
+                                <div class="">
+                                    <div class="mucictext">Bollywood Songs</div>
+                                </div>
+                    </div>
+                            </div>
+                            <div class="album">
+                                <div class="album-music">
+                                    <div class="alumicons"> <img src="./assests/bhopuri.jpg" alt="card2"></div>
+                                    <div class="">
+                                        <div class="mucictext">Bhojpuri Hits</div>
+                                    </div>
+                        </div>
+                                </div>
+                                <div class="album">
+                                    <div class="album-music">
+                                        <div class="alumicons"> <img src="./assests/romantic.jpg" alt="card2"></div>
+                                        <div class="">
+                                            <div class="mucictext">Romantics songs</div>
+                                        </div>
+                            </div>
+                                    </div>
+                                    <div class="album">
+                                        <div class="album-music">
+                                            <div class="alumicons"> <img src="./assests/punjabi.jpg" alt="card2"></div>
+                                            <div class="">
+                                                <div class="mucictext">Bass Bossted</div>
+                                            </div>
+                                </div>
+                                        </div>       
+            </div>
+            <!-- <div class="cards">
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="allcard">
+                        <img src="./assests/card1img.jpeg" class="card-img">
+                        <p class="card-title">Top-50 Global</p>
+                        <p class="card-info">your daily upadte of your most played</p>
+                    </div>
+                </div>
+            </div> -->
+
+
+            <div class="cards">
+                <h2>Trending now near you</h2>
+                <div class="card-container">
+                    <div class="allcard">
+                        <img src="./assests/card1img.jpeg" class="card-img">
+                        <p class="card-title">Top-50 Global</p>
+                        <p class="card-info">your daily upadte of your most played</p>
+                    </div>
+
+                    <div class="allcard">
+                        <img src="./assests/card2img.jpeg" class="card-img">
+                        <p class="card-title">Best Romantic </p>
+                        <p class="card-info">Neha Kakar </p>
+                    </div>
+
+                    <div class="allcard">
+                        <img src="./assests/card3img.jpeg" class="card-img">
+                        <p class="card-title">Mere Pass tum ho</p>
+                        <p class="card-info">Most played song in india</p>
+                    </div>
+
+                    <div class="allcard">
+                        <img src="./assests/card4img.jpeg" class="card-img">
+                        <p class="card-title">South Hits</p>
+                        <p class="card-info">Mix playlist</p>
+                    </div>
+                    <div class="allcard">
+                        <img src="./assests/card5img.jpeg" class="card-img">
+                        <p class="card-title">Top Global Songs</p>
+                        <p class="card-info">your daily upadte of your most played</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <h2>Featured charts</h2>
+                <div class="card-container">
+                    <div class="allcard">
+                        <img src="./assests/zyan1.jpg"class="card-img">
+                        <p class="card-title">Top-50 Global</p>
+                        <p class="card-info">your daily upadte of your most played</p>
+                    </div>
+                    <div class="allcard">
+                        <img src="./assests/card6img.jpeg" class="card-img">
+                        <p class="card-title">Top Indian Song</p>
+                        <p class="card-info">your daily upadte of your most played</p>
+                    </div>
+                    <div class="allcard">
+                        <img src="./assests/pxfuel.jpg" class="card-img">
+                        <p class="card-title">Bajrang Dal</p>
+                        <p class="card-info">New Mix 2023.....</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+            </div>
+
+
+
+
+        <div class="music-player">
+            <div class="albumbar">
+                <div class="liked-music">
+                    <div class="Likedmusicicon"> <img src="./assests/download.jpg" alt="card2"></div>
+                    <div class="">
+                        <div class="likes">Brown Munde</div>
+                        <div class="like-text">AP Dhillon, Gurinder Gill</div>
+                    </div>
+        </div>
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <img src="./assests/player_icon1.png" class="player-control-icon">
+                    <img src="./assests/player_icon2.png" class="player-control-icon">
+                    <img src="./assests/player_icon3.png" class="player-control-icon" style="opacity: 1; height:2.1rem">
+                    <img src="./assests/player_icon4.png" class="player-control-icon">
+                    <img src="./assests/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">01:06</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="total-time">03:30</span>
+                </div>
+            </div>
+            <div class="control">
+                <i class="fa-solid fa-play"></i> 
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-light fa-paperclip"></i>
+                <i class="fa-solid fa-headphones"></i>
+                <input type="range" min="0" max="100" class="volume-bar" step="1">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
